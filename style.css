@@ -1,56 +1,118 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 body{
-    background-color: darkgrey;
-}
-.cabeçalho{
-    background-color: #3E65EE;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    background-color: darkturquoise;
 }
 
-.cabeçalho-imagem{
-    width: 30%;
-    padding: 12px;
+.cabeçalho {
+    background-color: #297E79;
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-around;
 }
 
-.lista-cabecalho{
-
+.cabeçalho-imagem {
+        width:40%;
+        padding:12px; 
+    }
+.lista-cabeçalho{
     display:inline-block;
-    padding: 30px;
-    font-size: 35px;
+    padding:30px;
+    color:#031C1E;
+    font-size: 15px;
     font-weight: bolder;
-}
 
-.escola {
-    background-image: linear-gradient();
+} 
+
+
+.escola{
+    background-image: linear-gradient(#2AA6A6);
     display: flex;
     justify-content: left;
     align-items: center;
     padding: 24px 0;
-    background-color: #9BBBFB;
 }
 
-.texto-lista {
+.texto-lista{
 
     display: inline-block;
     list-style-type: none;
-    font-size: 21px;
 }
 
-.escola-imagem {
-
-    width: 95%;
-    margin: 42px;
+.escola-imagem{
+    width: 150%;
+    margin: 46px;
 }
-
-.escola-texto {
+.escola-texto{
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     margin: 20px;
+
 }
+.QuemSomos{
+    background-color: #2AA6A6 (46, 128, 148, 0.6) ;
+
+}
+
+.equipe {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color:black;
+}
+
+.equipe-escola{
+    background-color:#2AA6A6 (46, 128, 148, 0.6) ;
+    margin: 10px;
+    display: flex;
+    padding: 50px;
+    justify-content:space-evenly;
+}
+
+.equipe-colunas{
+    display: contents;
+    list-style-type: none;
+    text-align: center;
+}
+.profissional-nome{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.imagem-equipe {
+    width:100%;
+}
+.icones{
+    width:20%;
+}
+footer{
+    text-align:center;
+    background-color:#297E79 (62, 63, 68, 0.75);
+    padding:10px 0;
+}
+.siga-nos{
+    color: darkgray. (255, 255, 255, 1);
+    font-size: 20px;
+    padding: 10px 0 0;
+}
+
+    .imagem_rodape{
+        width: 10%;
+        padding: 5px 0 0;
+    }
+    .contato{
+        color: darkgray (255, 255, 255, 1);
+        font-size: 25px;
+        padding: 5px 0 0;
+    }
+
+    .rodape{
+        background-color: #297E79;
+    }
